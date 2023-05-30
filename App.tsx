@@ -185,6 +185,8 @@ const styles = StyleSheet.create({
         margin: 15,
         fontSize: 20,
         padding: 5,
+        width: 200,
+        alignSelf:"center"
     },
     container: {
         backgroundColor: "#7fc7af",
