@@ -1,0 +1,37 @@
+{
+    "name": "zalik",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "web": "expo start --web",
+        "test": "jest"
+    },
+    "jest": {
+        "presete": "jext-expo",
+        "transformIgnorePatterns": [
+            "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|native-notify)"
+        ]
+    },
+    "dependencies": {
+        "expo": "~48.0.11",
+        "expo-status-bar": "~1.4.4",
+        "jest-expo": "^48.0.2",
+        "jest-react-native": "^18.0.0",
+        "react": "18.2.0",
+        "react-hook-form": "^7.43.9",
+        "react-native": "0.71.6",
+        "react-native-dropdown-picker": "^5.4.6",
+        "react-native-get-random-values": "^1.9.0",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.0",
+        "@types/jest": "^29.5.1",
+        "@types/react": "~18.0.14",
+        "typescript": "^4.9.4"
+    },
+    "private": true
+}
